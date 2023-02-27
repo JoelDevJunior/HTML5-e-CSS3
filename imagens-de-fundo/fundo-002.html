@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>Personalização de Fundos</title>
+    <style>
+        .quadrado{
+            border: 2px solid black;
+            width: 400px;
+            height: 400px;
+            display: inline-block;
+            padding: 10px;
+        }
+        #mascote{
+            background-image: url(../../desafios/imagens/github-m.png);
+            background-size: 300px 300px;
+            background-repeat: no-repeat;
+           background-position: 50px;
+        }
+        #repeticao-vertical{
+            background-image: url(../../desafios/imagens/github-m.png);
+            background-size: 50px 50px;
+            background-repeat: repeat-x;
+           background-position: 50%;
+        }
+        #repeticao-horizontal{
+            background-image: url(../../desafios/imagens/github-m.png);
+            background-size: 50px 50px;
+            background-repeat: repeat-y;
+           background-position: 50%;
+        }
+        h1{
+            background-color: white;
+            margin-top: -10px;
+            padding: 5px;
+            font-size: 1.6em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="mascote">
+        <h1>Fundo sem repetição e centralizado</h1>
+    </div>
+
+    <div class="quadrado" id="repeticao-vertical">
+        <h1>Fundo com repetição vertical</h1>
+    </div>
+
+    <div class="quadrado" id="repeticao-horizontal">
+        <h1>Fundo com repetição horizontal</h1>
+    </div>
+</body>
+</html>
