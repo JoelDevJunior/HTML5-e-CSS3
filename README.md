@@ -1,2 +1,1 @@
-# HTML5-e-CSS3
-estudos e desafios completos  
+#  exercicios  em  HTML5  e  CSS3
